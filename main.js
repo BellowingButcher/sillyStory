@@ -29,4 +29,9 @@ function result() {
 
   story.textContent = ;
   story.style.visibility = 'visible';
+  const newStory = storyText;
+  const xItem = randomValueFromArray(insertX);
+  const yItem = randomValueFromArray(insertY);
+  const zItem = randomValueFromArray(insertZ);
+
 }
