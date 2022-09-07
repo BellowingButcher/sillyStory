@@ -18,16 +18,22 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
+    replace(':insertX:', (function randomValueFromArray(insertX)));
+    replace(':insertY:', (function randomValueFromArray(insertY)));
+    replace(':insertZ:', (function randomValueFromArray(insertZ)));
+    replace('Bob', name);
+    return storyText;
 
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
-
+    const weight = Math.round(300/14)+' stones';
+    const temperature =  Math.round(5/(9(94-32))+' centigrade';
+    replace('94 fahrenheit', document.querySelector(temperature));
+    replace('300 pounds'), document.querySelector(weight);
   }
 
-  story.textContent = ;
+  story.textContent = newStory;
   story.style.visibility = 'visible';
   const newStory = storyText;
   const xItem = randomValueFromArray(insertX);
