@@ -33,7 +33,7 @@ function result() {
     replace('300 pounds'), document.querySelector(weight);
   }
 
-  story.textContent = ;
+  story.textContent = newStory;
   story.style.visibility = 'visible';
   const newStory = storyText;
   const xItem = randomValueFromArray(insertX);
