@@ -21,13 +21,14 @@ function result() {
     replace(':insertX:', (function randomValueFromArray(insertX)));
     replace(':insertY:', (function randomValueFromArray(insertY)));
     replace(':insertZ:', (function randomValueFromArray(insertZ)));
+    replace('Bob', name);
     return storyText;
 
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
+    const weight = Math.round(300/14);
+    const temperature =  Math.round(5/(9(94-32));
 
   }
 
