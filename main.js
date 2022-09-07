@@ -18,6 +18,10 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
+    replace(':insertX:', (function randomValueFromArray(insertX)));
+    replace(':insertY:', (function randomValueFromArray(insertY)));
+    replace(':insertZ:', (function randomValueFromArray(insertZ)));
+    return storyText;
 
   }
 
