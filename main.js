@@ -1,4 +1,4 @@
-const customName = document.getElementById('customname');
+const customName = document.getElementById('customName');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
@@ -18,21 +18,20 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
-    replace('Bob', name);
-    return storyText;
+    storyText = storyText.replace('Bob', name);
 
   }
 
   if(document.getElementById("uk").checked) {
     const weight = Math.round(300/14)+' stones';
-    const temperature =  Math.round(5/(9(94-32))+' centigrade';
+    const temperature =  Math.round(5/(9(94-32)))+' centigrade';
     replace('94 fahrenheit', document.querySelector(temperature));
     replace('300 pounds'), document.querySelector(weight);
   }
 
   story.textContent = newStory;
   story.style.visibility = 'visible';
-  const newStory = newStory.replace(('insertX', xItem), ('insertY', yItem), ('insertZ', zItem));
+  const newStory = newStory.replaceAll(('insertX', xItem), ('insertY', yItem), ('insertZ', zItem));
   const xItem = randomValueFromArray(insertX);
   const yItem = randomValueFromArray(insertY);
   const zItem = randomValueFromArray(insertZ);
